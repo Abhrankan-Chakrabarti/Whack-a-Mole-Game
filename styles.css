@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.game {
+    text-align: center;
+}
+
+.holes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.hole {
+    width: 80px;
+    height: 80px;
+    background-color: #8b4513;
+    position: relative;
+    border-radius: 50%;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.mole {
+    width: 60px;
+    height: 60px;
+    background-color: #555;
+    position: absolute;
+    bottom: -60px;
+    left: 10px;
+    border-radius: 50%;
+    transition: bottom 0.3s;
+}
+
+.mole.up {
+    bottom: 10px;
+}
+
+.score-board {
+    font-size: 1.5em;
+    margin: 20px;
+}
