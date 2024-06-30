@@ -23,6 +23,21 @@ You can play the game live on GitHub Pages: [Whack-a-Mole Game Live Demo](https:
 
 ![Game Screenshot](screenshot.png)
 
+## Tags
+
+- HTML
+- CSS
+- JavaScript
+- Game
+- Web Game
+- Whack-a-Mole
+- Interactive
+- Beginner
+- Frontend
+- GitHub Pages
+- Browser Game
+- Fun
+
 ## License
 
 This project is licensed under the MIT License.
