@@ -1,14 +1,21 @@
+html {
+	width:100%;
+	text-align:center;
+	background-color: #f0f0f0;
+}
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+	background:#C4E1C5;
 }
 
 .game {
+	width:374px;
+	height:412px;
+	margin:0 auto;
+	padding-top:15px;
     text-align: center;
+	background: #fffafa;
 }
 
 .holes {
@@ -47,4 +54,18 @@ body {
 .score-board {
     font-size: 1.5em;
     margin: 20px;
+}
+
+
+#demo{
+	width:100%;
+	text-align:center;
+	background:#C4E1C5;
+}
+#startButton {
+	background:transparent;
+}
+
+#startButton:hover {
+	background-color:#fff;
 }
